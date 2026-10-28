@@ -1,0 +1,6 @@
+interface:
+  display_name: "人类写作业"
+  short_description: "先对齐作业材料，利用本机已有环境真实运行截图，按宋体小四交付朴素作业"
+  default_prompt: "使用 $human-homework，先阅读我提供的全部作业材料，有需要我回答的问题及时提出并对齐；资料齐全后利用当前电脑已有环境完成实验、截图与检查，交付可直接提交的报告和完整源码。"
+policy:
+  allow_implicit_invocation: true
